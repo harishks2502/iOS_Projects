@@ -15,7 +15,7 @@ struct TransactionsView: View {
         sortDescriptors: []
     ) private var transactions: FetchedResults<Transaction>
     
-    @State private var showAddTransactioView = false
+    @State private var showAddTransactionView = false
     @State private var editTransaction: Transaction?
     
     var totalIncome: Double { transactions.filter { $0.type == "Income" }.reduce(0) { $0 + $1.amount } }
@@ -78,13 +78,13 @@ struct TransactionsView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
-                        showAddTransactioView = true
+                        showAddTransactionView = true
                     }) {
                         Image(systemName: "plus")
                     }
                 }
             }
-            .sheet(isPresented: $showAddTransactioView) {
+            .sheet(isPresented: $showAddTransactionView) {
                 AddTransactionView()
             }
         }
