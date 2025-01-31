@@ -79,7 +79,7 @@ struct EditTransactionView: View {
         do {
             try viewContext.save()
         } catch {
-            print("Error saving context: \(error)")
+            print("Error updating transaction: \(error)")
         }
     }
     
