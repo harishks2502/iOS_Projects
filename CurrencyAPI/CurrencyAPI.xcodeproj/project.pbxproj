@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846FDA782D51F21200575084 /* MyRESTAPIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FDA772D51F21200575084 /* MyRESTAPIAppApp.swift */; };
+		846FDA7A2D51F21200575084 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FDA792D51F21200575084 /* ContentView.swift */; };
+		846FDA7C2D51F21400575084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846FDA7B2D51F21400575084 /* Assets.xcassets */; };
+		846FDA7F2D51F21400575084 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846FDA7E2D51F21400575084 /* Preview Assets.xcassets */; };
+		846FDA892D51F21400575084 /* MyRESTAPIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FDA882D51F21400575084 /* MyRESTAPIAppTests.swift */; };
+		846FDA932D51F21400575084 /* MyRESTAPIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FDA922D51F21400575084 /* MyRESTAPIAppUITests.swift */; };
+		846FDA952D51F21400575084 /* MyRESTAPIAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FDA942D51F21400575084 /* MyRESTAPIAppUITestsLaunchTests.swift */; };
+		846FDAA22D51F98100575084 /* CurrencyAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FDAA12D51F98100575084 /* CurrencyAPIService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846FDA852D51F21400575084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846FDA6C2D51F21200575084 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846FDA732D51F21200575084;
+			remoteInfo = MyRESTAPIApp;
+		};
+		846FDA8F2D51F21400575084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846FDA6C2D51F21200575084 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846FDA732D51F21200575084;
+			remoteInfo = MyRESTAPIApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846FDA742D51F21200575084 /* MyRESTAPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRESTAPIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846FDA772D51F21200575084 /* MyRESTAPIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRESTAPIAppApp.swift; sourceTree = "<group>"; };
+		846FDA792D51F21200575084 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		846FDA7B2D51F21400575084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846FDA7E2D51F21400575084 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		846FDA842D51F21400575084 /* MyRESTAPIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRESTAPIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846FDA882D51F21400575084 /* MyRESTAPIAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRESTAPIAppTests.swift; sourceTree = "<group>"; };
+		846FDA8E2D51F21400575084 /* MyRESTAPIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRESTAPIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846FDA922D51F21400575084 /* MyRESTAPIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRESTAPIAppUITests.swift; sourceTree = "<group>"; };
+		846FDA942D51F21400575084 /* MyRESTAPIAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRESTAPIAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		846FDAA12D51F98100575084 /* CurrencyAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyAPIService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846FDA712D51F21200575084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846FDA812D51F21400575084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846FDA8B2D51F21400575084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846FDA6B2D51F21200575084 = {
+			isa = PBXGroup;
+			children = (
+				846FDA762D51F21200575084 /* MyRESTAPIApp */,
+				846FDA872D51F21400575084 /* MyRESTAPIAppTests */,
+				846FDA912D51F21400575084 /* MyRESTAPIAppUITests */,
+				846FDA752D51F21200575084 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846FDA752D51F21200575084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846FDA742D51F21200575084 /* MyRESTAPIApp.app */,
+				846FDA842D51F21400575084 /* MyRESTAPIAppTests.xctest */,
+				846FDA8E2D51F21400575084 /* MyRESTAPIAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846FDA762D51F21200575084 /* MyRESTAPIApp */ = {
+			isa = PBXGroup;
+			children = (
+				846FDA772D51F21200575084 /* MyRESTAPIAppApp.swift */,
+				846FDAA12D51F98100575084 /* CurrencyAPIService.swift */,
+				846FDA792D51F21200575084 /* ContentView.swift */,
+				846FDA7B2D51F21400575084 /* Assets.xcassets */,
+				846FDA7D2D51F21400575084 /* Preview Content */,
+			);
+			path = MyRESTAPIApp;
+			sourceTree = "<group>";
+		};
+		846FDA7D2D51F21400575084 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				846FDA7E2D51F21400575084 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		846FDA872D51F21400575084 /* MyRESTAPIAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				846FDA882D51F21400575084 /* MyRESTAPIAppTests.swift */,
+			);
+			path = MyRESTAPIAppTests;
+			sourceTree = "<group>";
+		};
+		846FDA912D51F21400575084 /* MyRESTAPIAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846FDA922D51F21400575084 /* MyRESTAPIAppUITests.swift */,
+				846FDA942D51F21400575084 /* MyRESTAPIAppUITestsLaunchTests.swift */,
+			);
+			path = MyRESTAPIAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846FDA732D51F21200575084 /* MyRESTAPIApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846FDA982D51F21400575084 /* Build configuration list for PBXNativeTarget "MyRESTAPIApp" */;
+			buildPhases = (
+				846FDA702D51F21200575084 /* Sources */,
+				846FDA712D51F21200575084 /* Frameworks */,
+				846FDA722D51F21200575084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRESTAPIApp;
+			productName = MyRESTAPIApp;
+			productReference = 846FDA742D51F21200575084 /* MyRESTAPIApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846FDA832D51F21400575084 /* MyRESTAPIAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846FDA9B2D51F21400575084 /* Build configuration list for PBXNativeTarget "MyRESTAPIAppTests" */;
+			buildPhases = (
+				846FDA802D51F21400575084 /* Sources */,
+				846FDA812D51F21400575084 /* Frameworks */,
+				846FDA822D51F21400575084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846FDA862D51F21400575084 /* PBXTargetDependency */,
+			);
+			name = MyRESTAPIAppTests;
+			productName = MyRESTAPIAppTests;
+			productReference = 846FDA842D51F21400575084 /* MyRESTAPIAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846FDA8D2D51F21400575084 /* MyRESTAPIAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846FDA9E2D51F21400575084 /* Build configuration list for PBXNativeTarget "MyRESTAPIAppUITests" */;
+			buildPhases = (
+				846FDA8A2D51F21400575084 /* Sources */,
+				846FDA8B2D51F21400575084 /* Frameworks */,
+				846FDA8C2D51F21400575084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846FDA902D51F21400575084 /* PBXTargetDependency */,
+			);
+			name = MyRESTAPIAppUITests;
+			productName = MyRESTAPIAppUITests;
+			productReference = 846FDA8E2D51F21400575084 /* MyRESTAPIAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846FDA6C2D51F21200575084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					846FDA732D51F21200575084 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					846FDA832D51F21400575084 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 846FDA732D51F21200575084;
+					};
+					846FDA8D2D51F21400575084 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 846FDA732D51F21200575084;
+					};
+				};
+			};
+			buildConfigurationList = 846FDA6F2D51F21200575084 /* Build configuration list for PBXProject "MyRESTAPIApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846FDA6B2D51F21200575084;
+			productRefGroup = 846FDA752D51F21200575084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846FDA732D51F21200575084 /* MyRESTAPIApp */,
+				846FDA832D51F21400575084 /* MyRESTAPIAppTests */,
+				846FDA8D2D51F21400575084 /* MyRESTAPIAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846FDA722D51F21200575084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846FDA7F2D51F21400575084 /* Preview Assets.xcassets in Resources */,
+				846FDA7C2D51F21400575084 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846FDA822D51F21400575084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846FDA8C2D51F21400575084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846FDA702D51F21200575084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846FDA7A2D51F21200575084 /* ContentView.swift in Sources */,
+				846FDAA22D51F98100575084 /* CurrencyAPIService.swift in Sources */,
+				846FDA782D51F21200575084 /* MyRESTAPIAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846FDA802D51F21400575084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846FDA892D51F21400575084 /* MyRESTAPIAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846FDA8A2D51F21400575084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846FDA932D51F21400575084 /* MyRESTAPIAppUITests.swift in Sources */,
+				846FDA952D51F21400575084 /* MyRESTAPIAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846FDA862D51F21400575084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846FDA732D51F21200575084 /* MyRESTAPIApp */;
+			targetProxy = 846FDA852D51F21400575084 /* PBXContainerItemProxy */;
+		};
+		846FDA902D51F21400575084 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846FDA732D51F21200575084 /* MyRESTAPIApp */;
+			targetProxy = 846FDA8F2D51F21400575084 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		846FDA962D51F21400575084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846FDA972D51F21400575084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846FDA992D51F21400575084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyRESTAPIApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.MyRESTAPIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846FDA9A2D51F21400575084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyRESTAPIApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.MyRESTAPIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846FDA9C2D51F21400575084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.MyRESTAPIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyRESTAPIApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyRESTAPIApp";
+			};
+			name = Debug;
+		};
+		846FDA9D2D51F21400575084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.MyRESTAPIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyRESTAPIApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyRESTAPIApp";
+			};
+			name = Release;
+		};
+		846FDA9F2D51F21400575084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.MyRESTAPIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyRESTAPIApp;
+			};
+			name = Debug;
+		};
+		846FDAA02D51F21400575084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.MyRESTAPIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyRESTAPIApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846FDA6F2D51F21200575084 /* Build configuration list for PBXProject "MyRESTAPIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846FDA962D51F21400575084 /* Debug */,
+				846FDA972D51F21400575084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846FDA982D51F21400575084 /* Build configuration list for PBXNativeTarget "MyRESTAPIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846FDA992D51F21400575084 /* Debug */,
+				846FDA9A2D51F21400575084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846FDA9B2D51F21400575084 /* Build configuration list for PBXNativeTarget "MyRESTAPIAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846FDA9C2D51F21400575084 /* Debug */,
+				846FDA9D2D51F21400575084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846FDA9E2D51F21400575084 /* Build configuration list for PBXNativeTarget "MyRESTAPIAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846FDA9F2D51F21400575084 /* Debug */,
+				846FDAA02D51F21400575084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846FDA6C2D51F21200575084 /* Project object */;
+}
